@@ -12,7 +12,7 @@ func main()  {
 	fmt.Scan(&limit);
 	factorial = 1;
 
-	for i:=1; i<limit; i++ {
+	for i:=1; i<=limit; i++ {
 		factorial = factorial * i;
 		total = total + 1/float64(factorial);
 	}
